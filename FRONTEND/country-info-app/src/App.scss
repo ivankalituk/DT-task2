@@ -1,0 +1,27 @@
+.countryList_header{
+  background-color: red;
+
+  > .countryList_header_container{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 0 20px;
+
+      > h1{
+          font-family: 'Roboto', sans-serif;
+          font-weight: 700;
+          font-size: 30px;
+          color: white;
+          font-weight: 700;
+      }
+
+      > a{
+          font-size: 30px;
+          text-decoration: none;
+          color: white;
+          font-weight: 700;
+      }
+  }
+}

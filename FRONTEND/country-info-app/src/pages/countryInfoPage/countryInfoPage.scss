@@ -1,0 +1,59 @@
+.countryInfo{
+    padding: 10px 20px 0 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    > div{
+        > .countryInfo_mainInfo{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+            > img{
+                height: 70px;
+            }
+
+            > div{
+                font-size: 50px;
+                font-weight: 700;
+            }
+        }
+
+        > div{
+            
+            font-size: 20px;
+
+            > span{
+                font-weight: 700;
+            }
+        }
+
+        > .countryInfo_borders{
+            margin-top: 20px;
+
+            .countryInfo_borders_list{
+                display: flex;
+                gap: 10px;
+                flex-wrap: wrap;
+
+                > a{
+                    font-size: 20px;
+                    text-decoration: none;
+                    font-weight: 700;
+                    color: black;
+                    transition: color 0.3s;
+
+                    &:hover{
+                        color: red;
+                        transition: color 0.3s;
+                    }
+                }
+            }
+        }
+
+        > .countryInfo_population{
+            margin-top: 20px;
+            
+        }
+    }
+}
